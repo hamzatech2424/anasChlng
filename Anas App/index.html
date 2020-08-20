@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+
+width: 500px;
+height: 400px;
+background-image: url("collage.jpg");
+background-repeat: no-repeat;
+margin: 0px auto;
+margin-top: 90px;
+box-shadow: 10px 10px 5px #aaaaaa;
+border: 1px solid grey;
+
+}
+
+.frnt-page h1{
+    text-align: center;
+    color:honeydew;
+    text-shadow: 2px 2px 4px #000000;
+    text-transform: capitalize;
+    margin-top: 130px;
+    font-size: 35px;
+}
+
+.frnt-page button {
+    width: 50%;
+    height: 50px;
+    margin-left: 130px;
+    margin-top: 60px;
+    background-color: #3B4F33;
+    color:honeydew;
+    font-weight: bolder;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.hide{
+    display: none;
+}
+.imgdiv{
+    width: 500px;
+    height: 400px;
+}
+.nxtbtn{
+    border:none;
+    color: honeydew;
+    background-color: #E79B8E;
+    margin-left:230px ;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+    </style>
+</head>
+<body>
+    
+<div class="container">
+
+
+<div class="frnt-page">
+    <h1>Images Slides Show</h1>
+<button id="fbtn" onclick="play()">Click me to Start</button>
+</div>
+
+
+</div>
+
+
+
+</body>
+<script src="app.js"></script>
+</html>
